@@ -7,15 +7,24 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: schedule.qmd
+        text: Schedule
+      - href: modules.qmd
+        text: Field Guide
+      - href: assignments.qmd
+        text: Assignments
+      - href: resources.qmd
+        text: Resources
+    right:
+      - icon: github
+        href: https://github.com/rfinn/thinking-with-data
+        aria-label: GitHub
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: cosmo
     css: styles.css
     toc: true
-
-
-
+    toc-depth: 3
+    number-sections: false
+    smooth-scroll: true
