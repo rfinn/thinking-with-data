@@ -2,8 +2,6 @@
 title: "Field Guide"
 ---
 
-# Field Guide
-
 This Field Guide is the conceptual map for **Thinking with Data**.
 
 Rather than organizing the course around programming commands, we organize it around the habits of mind used by scientists, engineers, and data scientists when they investigate the world with data.
