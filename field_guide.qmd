@@ -1,0 +1,160 @@
+---
+title: "Field Guide"
+---
+
+# Field Guide
+
+This Field Guide is the conceptual map for **Thinking with Data**.
+
+Rather than organizing the course around programming commands, we organize it around the habits of mind used by scientists, engineers, and data scientists when they investigate the world with data.
+
+Throughout the semester, we will return to the same process:
+
+> **Question → Explore → Visualize → Interpret → Reflect**
+
+Each module adds new tools, but the larger goal stays the same: learning how to ask better questions, examine evidence carefully, and communicate conclusions honestly.
+
+---
+
+## Module 1 — Looking at Data
+
+**Driving question:** What can we learn from an unfamiliar dataset?
+
+In this module, we begin working with data in Python. You will learn how to open a notebook, inspect a dataset, make your first visualizations, and describe what you notice.
+
+**Topics include:**
+
+- Google Colab
+- Python basics
+- DataFrames
+- First summaries
+- Histograms, bar charts, and scatter plots
+- Reading CSV files
+- Filtering and sorting
+
+**Data Stories:**
+
+- How astronomers discovered the first exoplanets
+- Anscombe’s Quartet
+- Datasaurus Dozen
+
+➡️ [Go to Module 1](modules/01-looking-at-data.qmd)
+
+---
+
+## Module 2 — Understanding Data
+
+**Driving question:** How do we summarize, clean, and compare data?
+
+In this module, we learn how to move beyond first impressions. You will summarize distributions, compare groups, identify missing or messy data, and think critically about where data come from.
+
+**Topics include:**
+
+- Means, medians, and variability
+- Distributions
+- Missing data
+- Tidy data
+- Bias and representativeness
+- Groupby and aggregation
+- Comparing groups
+
+**Data Stories:**
+
+- Google Flu Trends
+- Challenger Disaster
+- Election polling
+
+➡️ [Go to Module 2](modules/02-understanding-data.qmd)
+
+---
+
+## Module 3 — Working with Data
+
+**Driving question:** How do we combine data, organize analysis, and tell a clearer story?
+
+In this module, we work with more complex datasets and more complex questions. You will combine tables, write reusable code, and begin moving from guided exercises toward larger investigations.
+
+**Topics include:**
+
+- Multi-variable visualization
+- Dashboards and visual storytelling
+- Joins and merging tables
+- Multi-table datasets
+- Functions
+- Reusable code
+- Simulation basics
+
+**Data Stories:**
+
+- LIGO’s first gravitational-wave detection
+- John Snow’s cholera map
+- The Event Horizon Telescope
+
+**Guided Data Investigation:**
+
+- Which stars host planets?
+
+➡️ [Go to Module 3](modules/03-working-with-data.qmd)
+
+---
+
+## Module 4 — Reasoning with Data
+
+**Driving question:** How certain are we?
+
+In this module, we begin reasoning about uncertainty. You will learn how samples vary, how to use simulation and bootstrapping, and how to think carefully about relationships between variables.
+
+**Topics include:**
+
+- Random sampling
+- Sampling distributions
+- Bootstrap confidence intervals
+- Correlation
+- Simple regression
+- Interpreting relationships
+- Distinguishing association from causation
+
+**Data Stories:**
+
+- How political polling works
+- Netflix recommendations
+
+➡️ [Go to Module 4](modules/04-reasoning-with-data.qmd)
+
+---
+
+## Module 5 — Responsible Data Science
+
+**Driving question:** What responsibilities come with using data?
+
+In this module, we focus on ethics, communication, and responsible analysis. You will consider bias, fairness, uncertainty, privacy, and the limits of algorithmic decision-making while completing your final data investigation.
+
+**Topics include:**
+
+- Data ethics
+- Fairness and bias
+- AI and algorithmic decision-making
+- Reproducibility
+- Communicating limitations
+- Final project presentations
+
+**Data Stories:**
+
+- COMPAS and AI bias
+- Student-selected Data Stories
+
+**Final Data Investigation:**
+
+- Student-designed project
+
+➡️ [Go to Module 5](modules/05-responsible-data-science.qmd)
+
+---
+
+## The path through the course
+
+By the end of the semester, you will have practiced the full Thinking with Data process many times.
+
+At first, the notebooks will be highly guided. As the semester progresses, you will make more decisions yourself: which variables to examine, which visualizations to use, how to interpret uncertainty, and how to communicate your findings.
+
+The final project is not a new kind of task. It is the same process you will have practiced all semester, applied independently to a question that interests you.
