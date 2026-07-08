@@ -13,7 +13,7 @@ website:
         text: Syllabus
       - href: schedule.qmd
         text: Schedule
-      - href: modules.qmd
+      - href: field_guide.qmd
         text: Field Guide
       - href: assignments.qmd
         text: Assignments
