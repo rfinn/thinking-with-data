@@ -1,7 +1,77 @@
 ---
-title: "Thinking with Data"
+title: Home
 ---
 
-This is a Quarto website.
+# Thinking with Data
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Exploratory Data Analysis & Visualization
+
+*A field guide to exploring the world through data.*
+
+Welcome to **DATA 110: Exploratory Data Analysis & Visualization**.
+
+In this course, you'll learn to ask meaningful questions, explore real datasets, create compelling visualizations, and communicate your findings clearly using Python.
+
+Whether we're investigating exoplanets, engineering systems, climate records, or election polls, we'll return to the same five-step process:
+
+> **Question → Explore → Visualize → Interpret → Reflect**
+
+---
+
+## Start Here
+
+If you're new to the course, begin with the **Start Here** page.
+
+There you'll find:
+
+- the philosophy behind the course
+- how the flipped classroom works
+- what you'll learn this semester
+- what to expect each week
+
+➡️ [Start Here](start_here.qmd)
+
+---
+
+## This Week
+
+*(This section will be updated throughout the semester.)*
+
+**Current topic**
+
+Week 1 — What is Data Science?
+
+**Before class**
+
+- Watch the introductory video
+- Complete the Canvas pre-class quiz
+
+**In class**
+
+- First Google Colab notebook
+- Exploring our first dataset
+
+---
+
+## Course Navigation
+
+📅 [Schedule](schedule.qmd)
+
+📖 [Field Guide](modules.qmd)
+
+💻 [Assignments](assignments.qmd)
+
+🧰 [Resources](resources.qmd)
+
+📋 [Course Policies](course_policies.qmd)
+
+---
+
+## Course Philosophy
+
+This course is not primarily about learning Python.
+
+It is about learning to think with data.
+
+Programming gives us powerful tools, but curiosity, critical thinking, visualization, and clear communication are the skills that will stay with you long after the semester ends.
+

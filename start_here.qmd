@@ -1,0 +1,142 @@
+---
+title: "Welcome"
+---
+
+# DATA 110 — Thinking with Data
+
+## Exploratory Data Analysis & Visualization
+
+**Welcome!**
+
+Every day we encounter claims supported by data.
+
+Some are insightful. Some are misleading. Some are simply wrong.
+
+This course is about learning how to tell the difference.
+
+In this course you will learn how to ask good questions, explore real datasets, create effective visualizations, interpret evidence honestly, and communicate your conclusions clearly. Python is our primary tool, but programming is not our primary goal. Our goal is to develop the habits of mind that allow scientists, engineers, and informed citizens to reason effectively with data.
+
+Many of our examples come from physics, astronomy, engineering, and other scientific disciplines because these are the fields many of you will pursue. At the same time, the ideas you learn will apply equally well to medicine, climate science, economics, public policy, sports analytics, and countless other areas where data are used to understand the world.
+
+---
+
+# Course Philosophy
+
+Data science is more than writing code.
+
+Good data scientists ask thoughtful questions, explore data carefully, communicate clearly, and remain skeptical of their own conclusions.
+
+Throughout the semester we will return to the same process:
+
+**Question → Explore → Visualize → Interpret → Reflect**
+
+Every notebook, assignment, and project will reinforce this cycle.
+
+By the end of the semester, our goal is not simply that you know more Python. Our goal is that you have developed a systematic approach to investigating questions with data.
+
+---
+
+# Learning Goals
+
+By the end of the semester you should be able to
+
+* import, organize, and explore real datasets using Python
+* create clear and informative visualizations
+* summarize data using appropriate descriptive statistics
+* recognize patterns, trends, and sources of variability
+* reason about sampling, uncertainty, and simple predictive models
+* communicate conclusions supported by evidence
+* evaluate the limitations, assumptions, and ethical implications of data analyses
+* produce reproducible computational analyses using Google Colab
+
+---
+
+# Course Format
+
+This course uses a flipped classroom model.
+
+Before most class meetings, you will watch a short recorded lecture and complete a brief Canvas quiz that checks your understanding of the basic ideas.
+
+Class time is devoted primarily to hands-on exploration. Rather than watching me write code, you will spend most of each class working through guided Google Colab notebooks individually or with a partner while the instructor circulates to answer questions and provide feedback.
+
+Most weeks will also begin with a short **Data Story**—a real example drawn from science, engineering, technology, or society that illustrates why the day's topic matters.
+
+---
+
+# A Typical Week
+
+**Before class**
+
+* Watch a short video (10–15 minutes)
+* Complete a short Canvas quiz
+
+**During class**
+
+* Discuss the Data Story
+* Brief overview and questions
+* Guided notebook activity in Google Colab
+* Reflection and discussion
+
+**After class**
+
+* Finish any remaining notebook exercises
+* Complete the weekly assignment if applicable
+
+---
+
+# Reproducibility
+
+One of the central ideas of this course is reproducibility.
+
+Every notebook that you submit should run successfully from beginning to end.
+
+Before submitting your work you should always
+
+* Restart the runtime
+* Run all cells
+* Verify that all figures and tables are reproduced automatically
+* Ensure that your written conclusions match your results
+
+These habits are essential in modern science, engineering, and data science.
+
+---
+
+# Working with AI
+
+Modern data scientists routinely use AI tools, documentation, and online resources while solving problems.
+
+In this course you are encouraged to use these tools to help you learn, understand syntax, debug code, and explore ideas.
+
+However, learning still requires active engagement. You are responsible for understanding every line of code you submit and every conclusion you write. If you use AI in completing an assignment, you should be prepared to explain both the code and the reasoning behind it.
+
+Our goal is not simply to produce working code—it is to develop your ability to think critically with data.
+
+---
+
+# Assessment
+
+Your grade will reflect both your preparation and your ability to apply the ideas developed throughout the semester.
+
+Assessment will include
+
+* pre-class preparation quizzes
+* guided notebook activities
+* problem sets
+* two in-class written examinations
+* a final data investigation project
+
+The paper examinations emphasize reasoning rather than memorization. You may be asked to interpret code, predict program output, identify bugs, critique visualizations, or explain why one analytical approach is more appropriate than another.
+
+---
+
+# Final Project
+
+The semester culminates in an independent data investigation.
+
+You will select a dataset, formulate a question, analyze the data using the techniques developed throughout the course, and communicate your findings through a reproducible Google Colab notebook and a short presentation.
+
+The project is not a separate experience from the rest of the course—it is the same process that you will have practiced repeatedly throughout the semester, applied independently to a question that interests you.
+
+---
+
+I am excited to explore this journey with you. Welcome to **Thinking with Data**.

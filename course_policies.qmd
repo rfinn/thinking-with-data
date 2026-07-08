@@ -1,0 +1,149 @@
+---
+title: "Course Policies"
+---
+
+# Instructor
+
+**Prof. Rose Finn**
+
+Office: Roger Bacon Hall 231
+
+Email: [rfinn@siena.edu](mailto:rfinn@siena.edu)
+
+Office Hours: TBD (and by appointment)
+
+If you have questions about the course, are struggling with an assignment, or simply want to talk about data science, physics, astronomy, or research opportunities, please stop by office hours or send me an email. I am always happy to help.
+
+---
+
+# Course Materials
+
+This course uses:
+
+* Google Colab for programming assignments and notebook activities
+* Canvas for announcements, grades, quizzes, and assignment submission
+* The *Thinking with Data* course website for notebooks, schedule, and course resources
+
+No textbook is required.
+
+---
+
+# Grading
+
+Your grade will be based on several components:
+
+| Component                 | Weight |
+| ------------------------- | -----: |
+| Pre-class quizzes         |     8% |
+| Notebook activities       |    20% |
+| Concept Checks (4)        |    12% |
+| Guided Data Investigation |    15% |
+| Test 1                    |    10% |
+| Test 2                    |    10% |
+| Final Data Investigation  |    25% |
+
+
+Final letter grades follow the standard Siena grading scale.
+
+---
+
+# Attendance
+
+Because this is an active-learning course, attendance and participation are important.
+
+Most class meetings are built around collaborative notebook activities that cannot be fully replicated outside the classroom. Missing class means missing opportunities to ask questions, receive feedback, and learn from your classmates.
+
+If illness, athletics, or another unavoidable circumstance prevents you from attending class, please let me know as soon as possible.
+
+---
+
+# Late Work
+
+Notebook activities and problem sets are designed to help you keep pace with the course.
+
+Extensions are available when requested **before** the deadline or when unexpected circumstances arise. Communication is important—please contact me early if you are having difficulty completing an assignment.
+
+---
+
+# Collaboration
+
+Discussion and collaboration are encouraged.
+
+You are welcome to work with classmates on notebook activities unless an assignment explicitly states otherwise.
+
+However, every student must submit work that reflects **their own understanding**. If you collaborate with another student, you should still be able to explain every line of code and every conclusion in your notebook.
+
+---
+
+# Artificial Intelligence
+
+Modern scientists, engineers, and data scientists increasingly use AI tools as part of their workflow.
+
+You are encouraged to use AI to
+
+* understand programming concepts
+* debug code
+* explore alternative solutions
+* improve your writing
+
+However, AI should support your learning—not replace it.
+
+You are responsible for understanding every line of code and every statement that you submit. If I ask you to explain your work, you should be able to do so confidently.
+
+When AI contributes substantially to an assignment, acknowledge how you used it.
+
+---
+
+# Academic Integrity
+
+Academic honesty is essential in this course.
+
+Unless otherwise stated, all submitted work should represent your own understanding.
+
+Copying another student's work or submitting code that you do not understand is inconsistent with the goals of the course and violates Siena University's academic integrity policy.
+
+If you are struggling, please ask for help. Learning from mistakes is expected; academic dishonesty is not.
+
+---
+
+# Accessibility
+
+Siena University is committed to providing equal access to educational opportunities for all students.
+
+If you have a documented disability or anticipate needing accommodations, please contact Siena's Accessibility Services as early as possible and let me know how I can best support your success in the course.
+
+---
+
+# Inclusive Learning Environment
+
+Everyone deserves to feel welcome and respected in this classroom.
+
+We come from different backgrounds, experiences, and perspectives. These differences strengthen our discussions and improve our understanding of data and the world around us.
+
+Please treat your classmates with curiosity, respect, and professionalism.
+
+---
+
+# Technology Expectations
+
+Please bring a laptop to class.
+
+During class, laptops should be used for course-related activities. Notifications should be silenced, and phones should be put away unless they are needed for course work or accessibility.
+
+---
+
+# Communication
+
+Course announcements will be posted on Canvas.
+
+If you email me, I will normally respond within one business day during the work week.
+
+If you discover an error in a notebook or assignment, please let me know! Improving the course is an ongoing process, and I appreciate your feedback.
+
+---
+
+# Changes to the Schedule
+
+The course schedule is subject to change as we discover what pace works best for the class.
+
+Any changes will be announced in class and posted on Canvas.

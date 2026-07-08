@@ -1,0 +1,14 @@
+---
+title: "Syllabus"
+---
+
+
+{{< include start_here.qmd >}}
+
+
+
+{{< include course_policies.qmd >}}
+
+
+
+{{< include schedule.qmd >}}

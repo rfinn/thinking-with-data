@@ -7,6 +7,10 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: start_here.qmd
+        text: Start Here
+      - href: syllabus.qmd
+        text: Syllabus
       - href: schedule.qmd
         text: Schedule
       - href: modules.qmd
@@ -15,10 +19,16 @@ website:
         text: Assignments
       - href: resources.qmd
         text: Resources
+      - href: course_policies.qmd
+        text: Policies
     right:
       - icon: github
         href: https://github.com/rfinn/thinking-with-data
         aria-label: GitHub
+
+  page-footer:
+    center: |
+      Thinking with Data:  Question → Explore → Visualize → Interpret → Reflect
 
 format:
   html:
