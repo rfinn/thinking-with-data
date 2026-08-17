@@ -17,7 +17,7 @@
 # COLUMN pl_bmasse:      Planet Mass or Mass*sin(i) [Earth Mass]
 # COLUMN pl_bmassj:      Planet Mass or Mass*sin(i) [Jupiter Mass]
 #
-pl_name,default_flag,discoverymethod,disc_year,soltype,pl_controv_flag,pl_orbper,pl_orbsmax,pl_bmasse,pl_bmassj
+planet_name,default_flag,discovery_method,discovery_year,solution_type,pl_controv_flag,orbital_period_days,orbital_distance_au,planet_mass_earth,planet_mass_jupiter
 11 Com b,1,Radial Velocity,2007,Published Confirmed,0,323.21000000000,1.1780000000,4914.89848585,15.46400000
 11 UMi b,1,Radial Velocity,2009,Published Confirmed,0,516.21997000000,1.5300000000,4684.81420000,14.74000000
 14 And b,1,Radial Velocity,2008,Published Confirmed,0,186.76000000000,0.7750000000,1131.15130051,3.55900000
