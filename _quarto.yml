@@ -3,6 +3,7 @@ project:
   resources:
     - data/**
 
+
 website:
   title: "Thinking with Data"
   navbar:
