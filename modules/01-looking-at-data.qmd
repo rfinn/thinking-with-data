@@ -1,0 +1,66 @@
+---
+title: "Looking at Data"
+subtitle: "Module 1"
+---
+
+**Driving question:** What can we learn from an unfamiliar dataset?
+
+In this first module, we begin learning how data scientists approach a new dataset.
+
+We will use real data, including examples from astronomy and other scientific fields, to practice the first steps of the **Thinking with Data** process:
+
+> **Question → Explore → Visualize → Interpret → Reflect**
+
+The goal is not to memorize Python commands. The goal is to become comfortable opening a dataset, figuring out what it contains, looking for patterns, and asking what those patterns might mean.
+
+---
+
+## By the end of this module, you should be able to
+
+- open and run a Google Colab notebook
+- identify observations and variables in a dataset
+- inspect the structure and contents of a pandas DataFrame
+- calculate simple summaries of numerical variables
+- create basic visualizations, including histograms, bar charts, and scatter plots
+- filter and sort data to answer simple questions
+- describe patterns you see in a visualization
+- distinguish between what the data show and what you might be tempted to conclude
+- restart and run a notebook from beginning to end to check reproducibility
+
+---
+
+## Key Ideas
+
+We will develop these ideas throughout the module:
+
+### Data have structure
+
+Most datasets can be thought of as a collection of **observations** and **variables**. Understanding what the rows and columns represent is one of the first steps in any analysis.
+
+### Look before you analyze
+
+Before calculating statistics or building models, inspect the data. What variables are present? What values are typical? Is anything missing or surprising?
+
+### Different visualizations reveal different patterns
+
+A histogram, bar chart, and scatter plot answer different kinds of questions. Choosing a visualization is part of the analysis.
+
+### Data require interpretation
+
+A graph does not speak for itself. We need to describe what we see and connect the evidence back to the question we are asking.
+
+### Data have a history
+
+Every dataset was collected for a reason, using particular methods. Later in the course we will examine this much more closely, but from the beginning we will ask:
+
+> Where did these data come from?
+
+---
+
+## Python Toolbox
+
+By the end of this module, you will have encountered tools such as:
+
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
