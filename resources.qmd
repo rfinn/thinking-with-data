@@ -1,5 +1,19 @@
 # Textbooks
 
-We do not have a required textbook for this course.  Instead, we will draw from a number of online resources, including:
+We do not have a single required textbook for this course. Instead, our primary course materials will be the **Thinking with Data** notebooks, supplemented by selected readings from several freely available online texts.
 
-- [https://inferentialthinking.com/](https://inferentialthinking.com/)
+You will occasionally be assigned specific chapters or sections from these books. You are not expected to read any of them cover-to-cover, but they are also excellent references when you would like another explanation of a topic, more examples, or additional practice.
+
+- [Computational and Inferential Thinking: The Foundations of Data Science](https://inferentialthinking.com/) —
+  the textbook developed for Berkeley's Data 8 course and one of the inspirations for this course. It provides an excellent introduction to thinking with data, visualization, sampling, and statistical inference. Note that Data 8 uses its own `datascience` Python package; in this course, we will instead use `pandas` and other widely used Python data-science tools.
+
+- [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) —
+  Jake VanderPlas's introduction to scientific computing and data science with Python. It is a useful resource for NumPy, pandas, visualization, and other tools we will encounter throughout the semester.
+
+- [Python for Data Analysis](https://wesmckinney.com/book/) —
+  Wes McKinney's guide to data analysis with Python. McKinney is the creator of pandas, and this book is an excellent resource when you want to understand pandas in greater depth.
+
+- [Think Stats](https://greenteapress.com/wp/think-stats-2e/) —
+  Allen Downey's introduction to statistics using Python. We will draw on it especially later in the course as we begin thinking about distributions, sampling, uncertainty, and statistical reasoning.
+
+# Data Ethics and Responsible Use of Data
