@@ -1,0 +1,5 @@
+# Textbooks
+
+We do not have a required textbook for this course.  Instead, we will draw from a number of online resources, including:
+
+- [https://inferentialthinking.com/](https://inferentialthinking.com/)
