@@ -54,9 +54,9 @@ By the end of the semester you should be able to
 
 This course uses a flipped classroom model.
 
-Before most class meetings, you will watch a short recorded lecture and complete a brief Canvas quiz that checks your understanding of the basic ideas.
+Before most class meetings, you will watch a short recorded lecture or read from selected references.  You will then complete a brief Canvas quiz that checks your understanding of the basic ideas.
 
-Class time is devoted primarily to hands-on exploration. Rather than watching me write code, you will spend most of each class working through guided Google Colab notebooks individually or with a partner while the instructor circulates to answer questions and provide feedback.
+Class time is devoted primarily to hands-on exploration. Rather than watching me write code, you will spend most of each class working through guided Google Colab notebooks individually or with a partner while I circulate to answer questions and provide feedback.
 
 Most weeks will also begin with a short **Data Story**—a real example drawn from science, engineering, technology, or society that illustrates why the day's topic matters.
 

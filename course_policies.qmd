@@ -24,7 +24,7 @@ This course uses:
 * Canvas for announcements, grades, quizzes, and assignment submission
 * The *Thinking with Data* course website for notebooks, schedule, and course resources
 
-No textbook is required.
+No textbook is required.  But see *Resources* for a list of texts we will utilize throughout the semester.
 
 ---
 
