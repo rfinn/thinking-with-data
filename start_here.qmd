@@ -40,14 +40,13 @@ By the end of the semester, our goal is not simply that you know more Python. Ou
 
 By the end of the semester you should be able to
 
-* import, organize, clean, and explore real datasets using Python
-* create clear and informative visualizations appropriate to the data and question
-* summarize data using appropriate descriptive statistics
-* recognize and interpret patterns, trends, and sources of variability
-* reason about sampling, uncertainty, and simple predictive models
-* communicate conclusions supported by evidence, including distinguishing between correlation and causation
-* evaluate the limitations, assumptions, and ethical implications of data analyses
-* produce reproducible computational analyses using Google Colab
+* use Python and Google Colab to import, organize, clean, explore, and reproducibly analyze real datasets
+* summarize and visualize data using methods appropriate to the data and question
+* recognize and interpret patterns, relationships, trends, and sources of variability in data
+* draw appropriate inferences from data, accounting for sampling, uncertainty, association and causation, and simple predictive models
+* communicate data analyses clearly, explaining the questions asked, choices made, patterns found, and conclusions supported by the evidence
+* evaluate the assumptions, limitations, provenance, and ethical implications of data analyses
+
 ---
 
 # Course Format
