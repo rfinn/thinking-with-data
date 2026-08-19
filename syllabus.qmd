@@ -115,9 +115,13 @@ Extensions are available when requested **before** the deadline or when unexpect
 
 Discussion and collaboration are encouraged.
 
-You are welcome to work with classmates on notebook activities unless an assignment explicitly states otherwise.
+You are welcome to work with classmates on notebook activities unless an assignment explicitly states otherwise. Some activities will specifically ask you to work with a partner.
 
-However, every student must submit work that reflects **their own understanding**. If you collaborate with another student, you should still be able to explain every line of code and every conclusion in your notebook.
+Collaboration can include discussing ideas, comparing approaches, helping one another interpret error messages, and talking through debugging strategies.
+
+However, every student must submit work that reflects **their own understanding**. Unless you are completing a shared assignment with an assigned partner, you should not simply copy another student's code or written responses.
+
+You should be able to explain the purpose of every line of code you submit, the choices you made in your analysis, and the conclusions you drew from the data.
 
 ---
 
@@ -125,18 +129,38 @@ However, every student must submit work that reflects **their own understanding*
 
 Modern scientists, engineers, and data scientists increasingly use AI tools as part of their workflow.
 
-You are encouraged to use AI to
+You are encouraged to use AI to help you
 
 * understand programming concepts
-* debug code
-* explore alternative solutions
-* improve your writing
+* interpret error messages and debug code
+* explore alternative approaches
+* ask questions about data or methods
+* improve the clarity of your writing
 
-However, AI should support your learning—not replace it.
+AI should support your learning—not replace it.
 
-You are responsible for understanding every line of code and every statement that you submit. If I ask you to explain your work, you should be able to do so confidently.
+You are responsible for understanding every line of code and every statement that you submit. You should be able to explain what your code does, why you used a particular approach, and how your results support your conclusions.
 
-When AI contributes substantially to an assignment, acknowledge how you used it.
+When AI contributes substantially to your work, acknowledge how you used it. This can be done in a Markdown cell in your notebook or, when appropriate, in a code comment.
+
+---
+
+# Sources & Attribution
+
+Data science rarely happens without outside resources. Documentation, textbooks, examples, online references, open-source code, and AI tools are all legitimate resources for learning and problem solving.
+
+When you copy, adapt, or substantially rely on code, text, ideas, or other material from an outside source, **acknowledge the source**.
+
+In a computational notebook, this can be done in several ways:
+
+* include a citation or link in a Markdown cell
+* add a comment near adapted code identifying the source
+* include the source in the notebook's **References & Data Sources** section
+* briefly describe how an AI tool contributed to the work
+
+You do not need to cite ordinary Python syntax or techniques that have become part of your own working knowledge. The goal is to make it clear when someone else's work made a meaningful contribution to your analysis.
+
+Regardless of where code comes from, **you are responsible for understanding any code that you submit**.
 
 ---
 
@@ -144,11 +168,20 @@ When AI contributes substantially to an assignment, acknowledge how you used it.
 
 Academic honesty is essential in this course.
 
-Unless otherwise stated, all submitted work should represent your own understanding.
+Submitted work should reflect your own understanding, except when an assignment explicitly asks you to produce shared work with a partner or group.
 
-Copying another student's work or submitting code that you do not understand is inconsistent with the goals of the course and violates Siena University's academic integrity policy.
+Using outside resources is not inherently a violation of academic integrity. Using code, ideas, or other material without appropriate attribution, copying another student's work, or submitting work that you cannot explain are inconsistent with the goals of the course and may constitute academic dishonesty.
 
-If you are struggling, please ask for help. Learning from mistakes is expected; academic dishonesty is not.
+In particular:
+
+* do not submit another student's code or written work as your own
+* do not allow another person or an AI tool to complete an assignment for you
+* acknowledge outside sources when they contribute substantially to your work
+* be prepared to explain the code, analysis, and conclusions that you submit
+
+If you are unsure whether a particular kind of collaboration or outside assistance is appropriate, ask.
+
+Learning from examples, documentation, classmates, mistakes, and debugging is expected. The goal is to become increasingly capable of solving problems and reasoning with data independently.
 
 ---
 
