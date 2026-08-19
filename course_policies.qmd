@@ -15,26 +15,42 @@ Office Hours: TBD (and by appointment)
 If you have questions about the course, are struggling with an assignment, or simply want to talk about data science, physics, astronomy, or research opportunities, please stop by office hours or send me an email. I am always happy to help.
 
 ---
+# Catalog Description
 
-# Course Materials
+CSIS-106 / DATA-110: Introduction to Exploratory Data Analysis and Visualization
+3 credit(s)
 
-This course uses:
+Data Science and analytics is an emerging field concerned with gathering, organizing, analyzing and visualizing large collections of information in order to extract actionable knowledge, i.e. to make decisions. This course is a basic introduction to the subject. Students will learn to identify data problems and to gather and analyze data using a suitable programming language such as R or Python. The coursework is aimed to help students to solve real world data problems obtained from a “subject matter expert”, i.e. a client who needs assistance with making data-driven decision in his/her field. No previous programming experience is necessary.
 
-* Google Colab for programming assignments and notebook activities
-* Canvas for announcements, grades, quizzes, and assignment submission
-* The *Thinking with Data* course website for notebooks, schedule, and course resources
-
-No textbook is required.  But see *Resources* for a list of texts we will utilize throughout the semester.
+Prerequisite(s): None
 
 ---
 
+# Course Materials
+
+* Required: **Data Science Foundations with Python** (zyBooks, ~$90). Access assignments through Canvas and then subscribe.  Do not go to the zyBooks website; always go through Canvas.
+
+> If you have a problem purchasing zybooks, please contact me right away (rfinn@siena.edu)
+
+* Supplemental: selected free online texts listed on the Resources page.
+* This course uses:
+  * Google Colab for programming assignments and notebook activities
+  * Canvas for announcements, grades, quizzes, and assignment submission
+  * The *Thinking with Data* course website for notebooks, schedule, and course resources
+
+---
+# Lecture Day & Time
+
+Tuesday & Thursday, 1:00-2:30am, RBXXX ---
+
+---
 # Grading
 
-Your grade will be based on several components:
+Your grade will be based on several components, described in more detail below:
 
 | Component                 | Weight |
 | ------------------------- | -----: |
-| Pre-class quizzes         |     8% |
+| Pre-class assignments         |     8% |
 | Notebook activities       |    20% |
 | Concept Checks (4)        |    12% |
 | Guided Data Investigation |    15% |
@@ -43,7 +59,37 @@ Your grade will be based on several components:
 | Final Data Investigation  |    25% |
 
 
+
+
+* Pre-class assignments (including zybook exercises)
+* Notebook activities - these will usually be started in class.  If you are not able to finish the notebook during class time, you are responsible for finishing them outside of class (I will provide instructions and deadlines).
+* Concept Checks - these are smaller quizzes on specific topics
+* Guided Data Investigation - this will be our midterm project, and it will be a encapsulate the full data science cycle.
+* Tests - we will have two in-class written examinations.  These will be on paper, and the questions will emphasize interpretation, tracing, debugging, visualization choices, and reasoning. You may be asked to interpret code, predict program output, identify bugs, critique visualizations, or explain why one analytical approach is more appropriate than another.
+* Final data investigation project
+
+
 Final letter grades follow the standard Siena grading scale.
+
+```
+              A  >= 93.0   A- >= 90.0
+B+ >= 87.0    B  >= 83.0   B- >= 80.0
+C+ >= 77.0    C  >= 73.0   C- >= 70.0
+D+ >= 67.0    D  >= 63.0   D- >= 60.0
+F  <  60.0
+```
+
+---
+
+# Final Project
+
+The semester culminates in an independent data investigation.
+
+You will select a dataset, formulate a question, analyze the data using the techniques developed throughout the course, and communicate your findings through a reproducible Google Colab notebook and a short presentation.
+
+The project is not a separate experience from the rest of the course—it is the same process that you will have practiced repeatedly throughout the semester, applied independently to a question that interests you.
+
+
 
 ---
 

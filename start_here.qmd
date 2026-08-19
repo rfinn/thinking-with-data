@@ -65,20 +65,19 @@ Most weeks will also begin with a short **Data Story**—a real example drawn fr
 
 **Before class**
 
-* Watch a short video (10–15 minutes)
-* Complete a short Canvas quiz
+* complete selected zyBooks sections, readings, or videos
+* complete an accompanying activity when assigned
 
-**During class**
+**Tuesday**
 
-* Discuss the Data Story
-* Brief overview and questions
+* Data Story
+* Brief mini-lecture
 * Guided notebook activity in Google Colab
-* Reflection and discussion
 
-**After class**
+**Thursday**
 
-* Finish any remaining notebook exercises
-* Complete the weekly assignment if applicable
+* Brief framing/mini-lecture
+* Notebook and pair coding/investigation
 
 ---
 
@@ -99,6 +98,15 @@ These habits are essential in modern science, engineering, and data science.
 
 ---
 
+# Assessment
+
+Your grade will reflect both your preparation and your ability to apply the ideas developed throughout the semester.
+
+The course includes low-stakes preparation work, guided notebook activities, concept checks, larger data investigations, two written tests, and a final independent data investigation.
+
+See [Course Policies](course_policies.qmd) for grading weights and details about each component.
+---
+
 # Working with AI
 
 Modern data scientists routinely use AI tools, documentation, and online resources while solving problems.
@@ -108,32 +116,6 @@ In this course you are encouraged to use these tools to help you learn, understa
 However, learning still requires active engagement. You are responsible for understanding every line of code you submit and every conclusion you write. If you use AI in completing an assignment, you should be prepared to explain both the code and the reasoning behind it.
 
 Our goal is not simply to produce working code—it is to develop your ability to think critically with data.
-
----
-
-# Assessment
-
-Your grade will reflect both your preparation and your ability to apply the ideas developed throughout the semester.
-
-Assessment will include
-
-* pre-class preparation quizzes
-* guided notebook activities
-* problem sets
-* two in-class written examinations
-* a final data investigation project
-
-The paper examinations emphasize reasoning rather than memorization. You may be asked to interpret code, predict program output, identify bugs, critique visualizations, or explain why one analytical approach is more appropriate than another.
-
----
-
-# Final Project
-
-The semester culminates in an independent data investigation.
-
-You will select a dataset, formulate a question, analyze the data using the techniques developed throughout the course, and communicate your findings through a reproducible Google Colab notebook and a short presentation.
-
-The project is not a separate experience from the rest of the course—it is the same process that you will have practiced repeatedly throughout the semester, applied independently to a question that interests you.
 
 ---
 

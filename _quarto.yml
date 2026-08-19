@@ -21,8 +21,6 @@ website:
         text: Assignments
       - href: resources.qmd
         text: Resources
-      - href: course_policies.qmd
-        text: Policies
       - href: outcomes.qmd
         text: Outcomes
     right:
