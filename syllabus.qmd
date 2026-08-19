@@ -4,7 +4,7 @@ title: "Syllabus"
 
 # DATA 110 : Thinking With Data
 
-# Instructor
+## Instructor
 
 **Prof. Rose Finn**
 
@@ -18,7 +18,7 @@ If you have questions about the course, are struggling with an assignment, or si
 
 ---
 
-# Catalog Description
+## Catalog Description
 
 CSIS-106 / DATA-110: Introduction to Exploratory Data Analysis and Visualization
 3 credit(s)
@@ -34,7 +34,7 @@ i.e. a client who needs assistance with making data-driven decision in his/her f
 
 ---
 
-# Course Materials
+## Course Materials
 
 * Required: **Data Science Foundations with Python** (zyBooks, ~$90). Access assignments through Canvas and then subscribe.  Do not go to the zyBooks website; always go through Canvas.
 
@@ -48,13 +48,13 @@ i.e. a client who needs assistance with making data-driven decision in his/her f
 
 ---
 
-# Lecture Day & Time
+## Lecture Day & Time
 
 Tuesday & Thursday, 1:00-2:30am, RB136
 
 ---
 
-# Grading
+## Grading
 
 Your grade will be based on several components, described in more detail below:
 
@@ -91,7 +91,7 @@ F  <  60.0
 
 ---
 
-# Final Project
+## Final Project
 
 The semester culminates in an independent data investigation.
 
@@ -103,7 +103,7 @@ The project is not a separate experience from the rest of the course—it is the
 
 ---
 
-# Attendance
+## Attendance
 
 Because this is an active-learning course, attendance and participation are important.
 
@@ -113,7 +113,7 @@ If illness, athletics, or another unavoidable circumstance prevents you from att
 
 ---
 
-# Late Work
+## Late Work
 
 Notebook activities and problem sets are designed to help you keep pace with the course.
 
@@ -121,7 +121,7 @@ Extensions are available when requested **before** the deadline or when unexpect
 
 ---
 
-# Collaboration
+## Collaboration
 
 Discussion and collaboration are encouraged.
 
@@ -135,7 +135,7 @@ You should be able to explain the purpose of every line of code you submit, the 
 
 ---
 
-# Artificial Intelligence
+## Artificial Intelligence
 
 Modern scientists, engineers, and data scientists increasingly use AI tools as part of their workflow.
 
@@ -155,7 +155,7 @@ When AI contributes substantially to your work, acknowledge how you used it. Thi
 
 ---
 
-# Sources & Attribution
+## Sources & Attribution
 
 Data science rarely happens without outside resources. Documentation, textbooks, examples, online references, open-source code, and AI tools are all legitimate resources for learning and problem solving.
 
@@ -174,7 +174,7 @@ Regardless of where code comes from, **you are responsible for understanding any
 
 ---
 
-# Academic Integrity
+## Academic Integrity
 
 Academic honesty is essential in this course.
 
@@ -195,7 +195,7 @@ Learning from examples, documentation, classmates, mistakes, and debugging is ex
 
 ---
 
-# Accessibility
+## Accessibility
 
 Siena University is committed to providing equal access to educational opportunities for all students.
 
@@ -203,7 +203,7 @@ If you have a documented disability or anticipate needing accommodations, please
 
 ---
 
-# Inclusive Learning Environment
+## Inclusive Learning Environment
 
 Everyone deserves to feel welcome and respected in this classroom.
 
@@ -213,7 +213,7 @@ Please treat your classmates with curiosity, respect, and professionalism.
 
 ---
 
-# Technology Expectations
+## Technology Expectations
 
 Please bring a laptop to class.
 
@@ -221,7 +221,7 @@ During class, laptops should be used for course-related activities. Notification
 
 ---
 
-# Communication
+## Communication
 
 Course announcements will be posted on Canvas.
 
@@ -231,8 +231,8 @@ If you discover an error in a notebook or assignment, please let me know! Improv
 
 ---
 
-# Changes to the Schedule
+## Changes to the Schedule
 
-The course schedule is subject to change as we discover what pace works best for the class.
+The [course schedule](schedule.qmd) is subject to change as we discover what pace works best for the class.
 
 Any changes will be announced in class and posted on Canvas.
