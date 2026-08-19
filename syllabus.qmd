@@ -49,9 +49,10 @@ i.e. a client who needs assistance with making data-driven decision in his/her f
 ---
 # Lecture Day & Time
 
-Tuesday & Thursday, 1:00-2:30am, RBXXX ---
+Tuesday & Thursday, 1:00-2:30am, RB136
 
 ---
+
 # Grading
 
 Your grade will be based on several components, described in more detail below:
