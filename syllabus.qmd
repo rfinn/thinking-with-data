@@ -47,6 +47,7 @@ i.e. a client who needs assistance with making data-driven decision in his/her f
   * The *Thinking with Data* course website for notebooks, schedule, and course resources
 
 ---
+
 # Lecture Day & Time
 
 Tuesday & Thursday, 1:00-2:30am, RB136
