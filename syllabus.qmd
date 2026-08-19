@@ -2,6 +2,8 @@
 title: "Syllabus"
 ---
 
+# DATA 110 : Thinking With Data
+
 # Instructor
 
 **Prof. Rose Finn**
@@ -15,14 +17,20 @@ Office Hours: TBD (and by appointment)
 If you have questions about the course, are struggling with an assignment, or simply want to talk about data science, physics, astronomy, or research opportunities, please stop by office hours or send me an email. I am always happy to help.
 
 ---
+
 # Catalog Description
 
 CSIS-106 / DATA-110: Introduction to Exploratory Data Analysis and Visualization
 3 credit(s)
 
-Data Science and analytics is an emerging field concerned with gathering, organizing, analyzing and visualizing large collections of information in order to extract actionable knowledge, i.e. to make decisions. This course is a basic introduction to the subject. Students will learn to identify data problems and to gather and analyze data using a suitable programming language such as R or Python. The coursework is aimed to help students to solve real world data problems obtained from a “subject matter expert”, i.e. a client who needs assistance with making data-driven decision in his/her field. No previous programming experience is necessary.
+Data Science and analytics is an emerging field concerned with gathering, organizing, analyzing and visualizing large collections of information
+in order to extract actionable knowledge, i.e. to make decisions. This course is a basic introduction to the subject.
+Students will learn to identify data problems and to gather and analyze data using a suitable programming language such as R or Python.
+The coursework is aimed to help students to solve real world data problems obtained from a “subject matter expert”,
+i.e. a client who needs assistance with making data-driven decision in his/her field. No previous programming experience is necessary.
 
-Prerequisite(s): None
+**Prerequisite(s):** None
+
 
 ---
 
