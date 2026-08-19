@@ -36,4 +36,4 @@ planets[flag].to_csv('exoplanets_2026.csv', index=False)
 
 
 # write out results for notebook 2 without the cut on semi-major axis 
-planets.to_csv('exoplanets_notebook2.csv', index=False)
+planets.to_csv('exoplanets_all_2026.csv', index=False)
