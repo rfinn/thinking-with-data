@@ -8,11 +8,17 @@ title: "Syllabus"
 
 **Prof. Rose Finn**
 
-Office: Roger Bacon Hall 231
+Office: Roger Bacon Hall 221
 
 Email: [rfinn@siena.edu](mailto:rfinn@siena.edu)
 
-Office Hours: TBD (and by appointment)
+
+Office Hours: Roger Bacon 221 & zoom
+* Tues 10:30 am - 12:00 pm
+* Wed 11:00 am - 12:30 pm
+
+
+or by appointment (just send me an email to arrange a time)
 
 If you have questions about the course, are struggling with an assignment, or simply want to talk about data science, physics, astronomy, or research opportunities, please stop by office hours or send me an email. I am always happy to help.
 
@@ -43,7 +49,7 @@ i.e. a client who needs assistance with making data-driven decision in his/her f
 * This course uses:
   * Google Colab for programming assignments and notebook activities
   * Canvas for announcements, grades, quizzes, and assignment submission
-  * The *Thinking with Data* course website for notebooks, schedule, and course resources
+  * The *Thinking with Data* course website for the schedule and course resources
 
 ---
 
@@ -58,7 +64,7 @@ Your grade will be based on several components, described in more detail below:
 
 | Component                 | Weight |
 | ------------------------- | -----: |
-| Pre-class assignments         |     15% |
+| Pre-class assignments     |    15% |
 | Notebook activities       |    20% |
 | Concept Checks (4)        |    10% |
 | Guided Data Investigation |    15% |
@@ -69,10 +75,10 @@ Your grade will be based on several components, described in more detail below:
 
 
 
-* Pre-class assignments (including zybook exercises)
+* Pre-class assignments (including zyBook exercises)
 * Notebook activities - these will usually be started in class.  If you are not able to finish the notebook during class time, you are responsible for finishing them outside of class (I will provide instructions and deadlines).
 * Concept Checks - these are smaller quizzes on specific topics
-* Guided Data Investigation - this will be our midterm project, and it will be a encapsulate the full data science cycle.
+* Guided Data Investigation - this will be our midterm project, and it will encapsulate the full data science cycle.
 * Tests - we will have two in-class written examinations.  These will be on paper, and the questions will emphasize interpretation, tracing, debugging, visualization choices, and reasoning. You may be asked to interpret code, predict program output, identify bugs, critique visualizations, or explain why one analytical approach is more appropriate than another.
 * Final data investigation project
 
