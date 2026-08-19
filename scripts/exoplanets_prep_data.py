@@ -24,7 +24,8 @@ planets = planets.rename(columns={'pl_name': 'planet_name',
                             'pl_orbper': 'orbital_period_days',
                             'pl_orbsmax': 'orbital_distance_au',
                             'pl_bmasse': 'planet_mass_earth',
-                            'pl_bmassj': 'planet_mass_jupiter'
+                            'pl_bmassj': 'planet_mass_jupiter',
+                            'pl_rade': 'planet_radius_earth',                            
                             }
                             )
 
