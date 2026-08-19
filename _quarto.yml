@@ -17,8 +17,6 @@ website:
         text: Schedule
       - href: field_guide.qmd
         text: Field Guide
-      - href: assignments.qmd
-        text: Assignments
       - href: resources.qmd
         text: Resources
       - href: outcomes.qmd
