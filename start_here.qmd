@@ -104,7 +104,7 @@ Your grade will reflect both your preparation and your ability to apply the idea
 
 The course includes low-stakes preparation work, guided notebook activities, concept checks, larger data investigations, two written tests, and a final independent data investigation.
 
-See [Course Policies](course_policies.qmd) for grading weights and details about each component.
+See [Syllabus](syllabus.qmd) for grading weights and details about each component.
 ---
 
 # Working with AI
@@ -117,6 +117,7 @@ However, learning still requires active engagement. You are responsible for unde
 
 Our goal is not simply to produce working code—it is to develop your ability to think critically with data.
 
+See [Syllabus](syllabus.qmd) for more details on the course AI and Academic Integrity policies.
 ---
 
 I am excited to explore this journey with you. Welcome to **Thinking with Data**.
