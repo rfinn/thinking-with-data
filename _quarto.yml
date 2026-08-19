@@ -23,6 +23,8 @@ website:
         text: Resources
       - href: course_policies.qmd
         text: Policies
+      - href: outcomes.qmd
+        text: Outcomes
     right:
       - icon: github
         href: https://github.com/rfinn/thinking-with-data

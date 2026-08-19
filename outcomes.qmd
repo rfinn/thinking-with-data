@@ -1,0 +1,157 @@
+---
+title: "Outcomes"
+---
+
+By the end of *Thinking with Data*, you should be able to do more than run Python code. You should be able to ask useful questions, work with real data, interpret what you find, and explain what the evidence does—and does not—support.
+
+## Course Learning Goals
+
+By the end of this course, you should be able to:
+
+- use Python and Google Colab to write, modify, and run code that imports, organizes, cleans, explores, and reproducibly analyzes real datasets
+- summarize and visualize data using methods appropriate to the data and question
+- recognize and interpret patterns, relationships, trends, and sources of variability in data
+- draw appropriate inferences from data, accounting for sampling, uncertainty, association and causation, and simple predictive models
+- frame data questions and communicate analyses clearly, explaining the questions asked, choices made, patterns found, and conclusions supported by the evidence
+- evaluate the assumptions, limitations, provenance, and ethical implications of data analyses
+
+---
+
+## What You Should Know and Be Able to Do
+
+The course learning goals describe the broad skills we are working toward. The list below provides a more detailed guide to the concepts and skills you will develop throughout the course.
+
+### Working with Python and Computational Notebooks
+
+You should be able to:
+
+- use Google Colab to create, open, run, and save computational notebooks
+- distinguish between code cells and Markdown/text cells
+- run cells in the correct order and recognize when notebook state affects results
+- use variables to store and update values
+- recognize and use common Python data types, including integers, floats, strings, lists, and Boolean values
+- use arithmetic, comparison, and Boolean operators
+- write and interpret conditional statements
+- use loops to perform repeated operations
+- write and call simple functions
+- understand the difference between a function's inputs, operations, and returned output
+- import Python packages and use functions from those packages
+- read and modify existing Python code
+- write short Python code segments to solve a specified problem
+- interpret common Python error messages and make simple debugging corrections
+- restart a notebook and run it from beginning to end without errors
+
+### Working with Data
+
+You should be able to:
+
+- describe a dataset in terms of observations and variables
+- distinguish between numerical and categorical variables
+- import tabular data from a file such as a CSV
+- create and work with pandas DataFrames
+- inspect a dataset using tools such as `head()`, `info()`, and `describe()`
+- select individual columns and subsets of rows
+- filter data using numerical, categorical, and Boolean conditions
+- sort observations according to one or more variables
+- recognize missing values and consider appropriate ways of handling them
+- clean and restructure data for analysis
+- create new variables from existing variables when appropriate
+- group observations and calculate summaries for different groups
+- combine information from multiple datasets using appropriate joins or merges
+- identify the source, meaning, and units of variables before using them in an analysis
+
+### Summarizing and Visualizing Data
+
+You should be able to:
+
+- calculate and interpret measures of center, including mean and median
+- calculate and interpret measures of variability
+- describe the shape and important features of a distribution
+- identify unusual observations and potential outliers
+- create histograms, bar charts, scatter plots, and other basic visualizations using Python
+- choose a visualization appropriate to the variables and question being investigated
+- label figures clearly, including axes, units, legends, and titles when appropriate
+- recognize misleading or ineffective visualizations
+- use visualizations together with numerical summaries rather than relying on either alone
+- compare distributions and relationships among different groups
+- identify patterns, trends, clusters, gaps, and unusual observations in visualizations
+- revise a visualization to communicate information more effectively
+
+### Exploring and Interpreting Data
+
+You should be able to:
+
+- begin an analysis by identifying a meaningful question
+- translate a broad question into quantities that can be investigated with available data
+- explore an unfamiliar dataset before attempting to answer a specific question
+- recognize that the structure of an observed dataset is influenced by how the data were collected
+- distinguish an observed pattern from an explanation for that pattern
+- identify relationships between variables
+- distinguish association from causation
+- recognize common reasons that an observed association may not represent a causal relationship
+- compare groups while considering differences in sample size, variability, and data collection
+- recognize selection effects and other forms of sampling bias
+- identify alternative interpretations that are consistent with the available evidence
+
+### Reasoning about Uncertainty and Inference
+
+You should be able to:
+
+- distinguish between a population and a sample
+- explain why different random samples from the same population can produce different results
+- use random sampling and simulation to investigate variability
+- describe the idea of a sampling distribution
+- use bootstrap resampling to estimate uncertainty
+- construct and interpret a confidence interval at an introductory level
+- distinguish between variability in the data and uncertainty in an estimate
+- determine whether conclusions drawn from a sample can reasonably be generalized to a larger population
+- recognize when the available data do not justify a strong conclusion
+- quantify and communicate uncertainty rather than treating estimates as exact
+
+### Relationships and Simple Models
+
+You should be able to:
+
+- describe the direction, form, and strength of a relationship between two numerical variables
+- interpret correlation as a measure of linear association
+- recognize limitations of correlation
+- fit and interpret a simple linear regression model
+- interpret the slope and intercept of a linear model in context
+- use a fitted model to make predictions
+- distinguish interpolation from extrapolation
+- evaluate whether a simple model provides a reasonable description of the observed data
+- recognize that a predictive relationship does not by itself establish causation
+
+### Communicating with Data
+
+You should be able to:
+
+- clearly state the question an analysis is intended to address
+- explain why particular data, summaries, visualizations, or methods were chosen
+- describe important patterns in data using clear, nontechnical language
+- connect quantitative or graphical evidence to a conclusion
+- distinguish between what the data show and what they do not show
+- communicate uncertainty and limitations alongside conclusions
+- write captions and explanatory text that allow another person to understand a table or visualization
+- organize code, figures, and written interpretation into a coherent analysis
+- **explain an analysis and its conclusions to someone who has not taken the course**
+- adapt the level of technical detail to the intended audience
+
+### Evaluating Data and Analyses Responsibly
+
+You should be able to:
+
+- identify where a dataset came from and how it was collected
+- recognize that datasets reflect choices about what was measured, recorded, included, and excluded
+- identify assumptions underlying an analysis
+- identify important limitations of a dataset or analysis
+- recognize sampling, measurement, and selection biases
+- consider whose perspectives or populations may be missing from a dataset
+- recognize ethical issues involving privacy, fairness, representation, and the use of data
+- evaluate whether an analysis supports the claims being made
+- cite datasets and other sources so that an analysis is traceable
+- document enough of an analysis that another person could reproduce the results
+
+---
+
+These outcomes will develop gradually throughout the semester. You are not expected to master all of them at once. As you move through the Field Guide, notebooks, investigations, and projects, you will revisit many of these skills multiple times with increasing independence.
