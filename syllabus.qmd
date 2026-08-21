@@ -76,7 +76,11 @@ Your grade will be based on several components, described in more detail below:
 
 
 * Pre-class assignments (including zyBook exercises)
-* Notebook activities - these will usually be started in class.  If you are not able to finish the notebook during class time, you are responsible for finishing them outside of class (I will provide instructions and deadlines).
+* Notebook activities
+  * These will usually be started in class.  If you are not able to finish the notebook during class time, you are responsible for finishing them outside of class (I will provide instructions and deadlines).
+  * Most notebook activities are graded primarily for completion, effort, and thoughtful engagement with the analysis.
+  * Some Thursday notebook activities will include short **Weekly Checkpoints**. These are low-stakes, in-class coding exercises designed to help you assess whether you can independently apply the week's core Python or data-analysis skill.
+  * Unlike regular notebook activities, Weekly Checkpoints are graded for correctness. Automated tests may be provided so that you can check your work and revise your code during the allotted time.
 * Concept Checks - these are smaller quizzes on specific topics
 * Guided Data Investigation - this will be our midterm project, and it will encapsulate the full data science cycle.
 * Tests - we will have two in-class written examinations.  These will be on paper, and the questions will emphasize interpretation, tracing, debugging, visualization choices, and reasoning. You may be asked to interpret code, predict program output, identify bugs, critique visualizations, or explain why one analytical approach is more appropriate than another.
