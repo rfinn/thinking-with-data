@@ -25,20 +25,28 @@ The course learning goals describe the broad skills we are working toward. The l
 
 You should be able to:
 
-- use Google Colab to create, open, run, and save computational notebooks
+- use Google Colab to create, open, run, edit, and save computational notebooks
 - distinguish between code cells and Markdown/text cells
 - run cells in the correct order and recognize when notebook state affects results
 - use variables to store and update values
-- recognize and use common Python data types, including integers, floats, strings, lists, and Boolean values
-- use arithmetic, comparison, and Boolean operators
-- write and interpret conditional statements
-- use loops to perform repeated operations
-- write and call simple functions
-- understand the difference between a function's inputs, operations, and returned output
+- distinguish among common Python data types, including integers, floats, strings, lists, and Boolean values
+- convert values between appropriate data types when needed
+- use arithmetic expressions and understand Python's order of operations
+- use comparison and Boolean operators to create logical conditions
+- read and interpret conditional statements using `if`, `elif`, and `else`
+- use simple `for` and `while` loops to perform repeated operations
+- understand how iteration can occur explicitly with loops or implicitly through operations on lists, arrays, and DataFrames
+- call functions with appropriate inputs and interpret the values or data structures they return
+- write simple functions that perform a defined task and return a result
 - import Python packages and use functions from those packages
+- recognize common Python syntax rules, including matching delimiters and indentation
+- read a block of Python code and explain what it does
+- trace simple code by hand and predict its output
 - read and modify existing Python code
 - write short Python code segments to solve a specified problem
-- interpret common Python error messages and make simple debugging corrections
+- interpret common Python error messages and make debugging corrections
+- debug code by inspecting intermediate values and testing smaller pieces of a program
+- create simple test cases to determine whether code behaves as intended
 - restart a notebook and run it from beginning to end without errors
 
 ### Working with Data
