@@ -41,9 +41,11 @@ i.e. a client who needs assistance with making data-driven decision in his/her f
 
 ## Course Materials
 
-* Required: **Data Science Foundations with Python** (zyBooks, ~$90). Access assignments through Canvas and then subscribe.  Do not go to the zyBooks website; always go through Canvas.
+* Required: **Data Science Foundations with Python** (zyBooks, $94).
 
-> If you have a problem purchasing zybooks, please contact me right away (rfinn@siena.edu)
+> **Access assignments through Canvas and then subscribe.  Do not go to the zyBooks website; always go through Canvas.**
+
+If you have a problem purchasing zybooks, please contact me right away (rfinn@siena.edu)
 
 * Supplemental: selected free online texts listed on the Resources page.
 * This course uses:
