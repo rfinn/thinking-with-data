@@ -1,17 +1,52 @@
+---
+title: "Schedule"
+---
 
-| Week   | Dates          | Driving Question                                         | Tuesday                                                                   | Thursday                                                                                            | Data Story                                      | Python / Coding Skills                                                                                                                                                       |
-| ------ | -------------- | -------------------------------------------------------- | ------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ----------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **1**  | Sept 9, 11     | **What can we learn from data?**                         | Course intro + Notebook 1: explore the known exoplanet population         | Notebook 2: exoplanet detection methods, selection effects, and what kinds of planets we can detect | **51 Pegasi b and the discovery of exoplanets** | Colab basics; run/edit cells; variables; DataFrames; select columns; call existing functions; modify plotting code                                                           |
-| **2**  | Sept 16, 18    | **What can a graph tell us?**                            | Histograms and bar charts; distributions of one variable                  | Scatter plots; relationships between two variables; pair exploration                                | **Anscombe’s Quartet**                          | Plotting functions; arguments/parameters; selecting columns; first simple **`for` loop** to repeat a plot or summary                                                         |
-| **3**  | Sept 23, 25    | **Can graphs fool us?**                                  | Reading CSV files; Boolean expressions; filtering and sorting             | Cleaning data + **Data Investigation 1**                                                            | **Datasaurus Dozen**                            | `read_csv`; comparisons (`>`, `<`, `==`); Boolean masks; `&`, `\|`; filtering; sorting                                                                                       |
-| **4**  | Sept 30, Oct 2 | **What does “typical” really mean?**                     | Mean, median, and measures of center                                      | Variability and distributions; comparing summaries                                                  | **Google Flu Trends**                           | DataFrame methods; calculations with columns; **write a first simple function** to calculate/reuse a summary                                                                 |
-| **5**  | Oct 7, 9       | **Where did these data come from?**                      | Missing data, data provenance, and measurement                            | Messy real dataset; bias and representativeness                                                     | **Challenger disaster**                         | `isna`, `dropna`, `fillna`; create/modify columns; first simple **`if` statement**; reuse a provided function                                                                |
-| **6**  | Oct 14, 16     | **How do groups differ?**                                | Grouping and aggregation                                                  | Comparing groups + pair investigation                                                               | **Election polling**                            | `groupby`; aggregation; categorical filtering; loops/functions used to repeat comparisons across groups                                                                      |
-| **7**  | Oct 21, 23     | **How do we tell a story with data?**                    | Multivariable visualization and communicating a data story                | **TEST 1**                                                                                          | **LIGO’s first gravitational-wave detection**   | Customize plots; multiple variables; labels/legends; organize notebook code; interpret and modify increasingly independent code                                              |
-| **8**  | Oct 28, 30     | **How do we combine different sources of data?**         | Joining and merging tables                                                | Multi-table investigation                                                                           | **John Snow’s cholera map**                     | `merge`/joins; keys; selecting columns before/after a merge; functions/loops where useful for repeated processing                                                            |
-| **9**  | Nov 4, 6       | **How can we make our code more powerful and reusable?** | Conditionals, loops, and functions — revisiting what we have already used | **Guided Data Investigation** / reusable analysis workflow                                          | **Event Horizon Telescope**                     | **Formal treatment of `if`/`elif`/`else`, `for`, `def`, arguments, return values, scope, reusable code, debugging**                                                          |
-| **10** | Nov 11, 13     | **Can a small sample represent a large population?**     | Random sampling and simulation                                            | Bootstrap and confidence intervals                                                                  | **How political polling works**                 | Random-number tools; loops for repeated sampling; functions for simulations; storing repeated results; students expected to use loops/functions rather than only modify them |
-| **11** | Nov 18, 20     | **When does a relationship matter?**                     | Correlation and simple linear regression                                  | **TEST 2**                                                                                          | **Netflix recommendations**                     | Fit/use simple models; predictions; interpret model output; write reusable analysis/plotting functions where appropriate                                                     |
-| —      | Nov 25, 27     | **Thanksgiving**                                         | —                                                                         | —                                                                                                   | —                                               | —                                                                                                                                                                            |
-| **12** | Dec 2, 4       | **Should we trust every algorithm?**                     | Ethics, fairness, AI, and bias                                            | Final Investigation workshop / draft analysis                                                       | **COMPAS & algorithmic bias**                   | Independent data cleaning, filtering, visualization, functions, loops, debugging; code organization and reproducibility                                                      |
-| **13** | Dec 9, 11      | **What story does your data tell?**                      | Final Investigation work day                                              | Presentations                                                                                       | Student-selected / project stories              | Independent integration of Python skills; readable/reproducible notebooks; explain and defend coding choices                                                                 |
+# Course Schedule
+
+This schedule is a working plan and may evolve as the semester progresses.
+
+Most weeks follow a recurring rhythm:
+
+- **Tuesday:** introduce the week's central question, often through a Data Story, brief framing, and a guided notebook
+- **Thursday:** deepen and apply the week's ideas through pair coding, investigation, or synthesis
+- **Python Skills Checks:** approximately every other week, with a closely related practice example provided in advance
+
+| Week | Dates | Driving Question | Tuesday | Thursday | Data Story | Python / Coding Skills |
+|---|---|---|---|---|---|---|
+| **1** | Sept 9, 11 | **What can we learn from data?** | Course introduction; **Notebook 01A \| Our First Look at Data** — explore the known exoplanet population | **Notebook 01B \| Exoplanet Detection Techniques** — discovery methods, selection effects, and what kinds of planets we are able to detect | **51 Pegasi b and the discovery of exoplanets** | Colab basics; run/edit cells; variables; DataFrames; select columns; call existing functions; modify plotting code |
+| **2** | Sept 16, 18 | **Do statistics tell the whole story?** | Summary statistics: mean, median, standard deviation, min/max; **Notebook 02A \| Do Statistics Tell the Whole Story?** | Review + pair work; **Notebook 02B \| Datasaurus and Automation**; **Python Skills Check 01** | **Anscombe's Quartet + Datasaurus** | Summary functions; arguments and return values; introduce a simple function; repeated operations; first exposure to loops and automation |
+| **3** | Sept 23, 25 | **Can graphs fool us?** | Reading CSV files; Boolean expressions; filtering and sorting | Cleaning data; pair investigation | TBD | `read_csv`; comparisons (`>`, `<`, `==`); Boolean masks; `&`, `\|`; filtering; sorting; debugging |
+| **4** | Sept 30, Oct 2 | **What does "typical" really mean?** | Distributions, variability, percentiles, and measures of spread | Comparing distributions and groups; **Python Skills Check 02** | TBD | DataFrame methods; calculations with columns; functions; Boolean logic; loops; code tracing |
+| **5** | Oct 7, 9 | **Where did these data come from?** | Data collection, missing data, provenance, and measurement | Messy real dataset; bias and representativeness | **Challenger disaster** | `isna`, `dropna`, `fillna`; create/modify columns; first simple `if` statements; type conversion; debugging |
+| **6** | Oct 14, 16 | **How do groups differ?** | Grouping and aggregation | Comparing groups + pair investigation; **Python Skills Check 03** | **Election polling** | `groupby`; aggregation; categorical filtering; loops/functions for repeated comparisons; conditional logic |
+| **7** | Oct 21, 23 | **How do we tell a story with data?** | Multivariable visualization and communicating a data story | **TEST 1** | **LIGO's first gravitational-wave detection** | Customize plots; multiple variables; labels/legends; organize notebook code; read, trace, and debug increasingly independent code |
+| **8** | Oct 28, 30 | **How do we combine different sources of data?** | Joining and merging tables | Multi-table investigation; **Python Skills Check 04** | **John Snow's cholera map** | `merge` / joins; keys; selecting columns before/after a merge; reusable functions and loops where appropriate |
+| **9** | Nov 4, 6 | **How can we make our code more powerful and reusable?** | Revisit conditionals, loops, and functions more formally | **Guided Data Investigation** / reusable analysis workflow | **Event Horizon Telescope** | `if` / `elif` / `else`; `for`; `while`; `def`; arguments; return values; scope; reusable code; systematic debugging |
+| **10** | Nov 11, 13 | **Can a small sample represent a large population?** | Random sampling and simulation | Bootstrap and confidence intervals; **Python Skills Check 05** | **How political polling works** | Random-number tools; loops for repeated sampling; functions for simulations; storing repeated results; NumPy arrays |
+| **11** | Nov 18, 20 | **When does a relationship matter?** | Correlation and simple linear regression | **TEST 2** | **Netflix recommendations** | Fit/use simple models; predictions; interpret model output; reusable analysis/plotting functions |
+| — | Nov 25, 27 | **Thanksgiving** | — | — | — | — |
+| **12** | Dec 2, 4 | **Should we trust every algorithm?** | Ethics, fairness, AI, and bias | Final Data Investigation workshop / draft analysis; **Python Skills Check 06** | **COMPAS & algorithmic bias** | Independent data cleaning, filtering, visualization, functions, loops, debugging; code organization and reproducibility |
+| **13** | Dec 9, 11 | **What story does your data tell?** | Final Data Investigation work day | Student presentations | Student-selected / project stories | Independent integration of Python skills; readable and reproducible notebooks; explain and defend coding and analytical choices |
+
+## A Note About Python Skills
+
+Python skills will be introduced gradually and revisited throughout the semester.
+
+The goal is not to memorize syntax all at once. Instead, we will repeatedly practice the same core ideas in increasingly independent ways:
+
+> **see it → modify it → use it → write it → choose when to use it**
+
+By the end of the semester, you should be comfortable reading, modifying, writing, testing, and debugging basic Python code used for data analysis.
+
+## A Note About the Schedule
+
+The exact topics, datasets, and Data Stories may shift as the semester progresses.
+
+Canvas will always contain the most current information about:
+
+- assignments
+- zyBooks activities
+- notebook due dates
+- Python Skills Checks
+- project milestones
