@@ -147,19 +147,18 @@ You should be able to explain the purpose of every line of code you submit, the 
 
 ## Artificial Intelligence
 
-Modern scientists, engineers, and data scientists increasingly use AI tools as part of their workflow.
+Modern scientists, engineers, and data scientists increasingly use AI tools as part of their workflow.  In this course, you can use AI tools to get feedback on work that you created, but you should not use AI to create content from scratch.
 
 You are encouraged to use AI to help you
 
 * understand programming concepts
 * interpret error messages and debug code
-* explore alternative approaches
 * ask questions about data or methods
 * improve the clarity of your writing
 
 AI should support your learning—not replace it.
 
-You are responsible for understanding every line of code and every statement that you submit. You should be able to explain what your code does, why you used a particular approach, and how your results support your conclusions.
+You are responsible for understanding every line of code and every statement that you submit. You should be able to explain what your code does, why you used a particular approach, and how your results support your conclusions.  Note that I may ask you to explain your approach/code if I am concerned about the authorship.
 
 When AI contributes substantially to your work, acknowledge how you used it. This can be done in a Markdown cell in your notebook or, when appropriate, in a code comment.
 
