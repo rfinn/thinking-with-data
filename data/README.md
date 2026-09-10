@@ -33,9 +33,9 @@ The contracts table is used as the roster base because the WNBA comparison file 
 
 Basketball Reference includes repeated header/separator rows in the contracts HTML table. These rows do not represent players and are explicitly removed by the script.
 
-Some players appear more than once in the contracts table with the same 2026-27 salary but different team or guaranteed-salary entries. The script collapses those to one player row only when the 2026-27 salary is identical across duplicate rows. It fails instead of choosing silently if duplicate rows have conflicting 2026-27 salaries.
+Some players appear more than once in the contracts table with different team or guaranteed-salary entries. The script removes players with duplicate contract rows so the classroom file does not require students to interpret team-change or contract accounting cases.
 
-Players who changed teams during the 2025-26 season appear more than once in the per-game statistics table. Basketball Reference provides a season-total row labeled with a multi-team code such as `2TM` or `3TM`; the script keeps that total row and drops the single-team stint rows. It fails if a duplicated player does not have exactly one season-total row.
+Players who changed teams during the 2025-26 season appear more than once in the per-game statistics table. Basketball Reference provides a season-total row labeled with a multi-team code such as `2TM` or `3TM`, but the script removes these duplicate-player cases from the final output to match the WNBA data-building rule and keep the introductory dataset easier to reason about.
 
 Salary values are stored as numeric dollars. Basketball Reference shooting percentages are source proportions, such as `0.476`; the script multiplies them by 100 so `FG%`, `2P%`, and `3P%` use numeric percentage points like the WNBA file. Games, games started, minutes, points, rebounds, assists, steals, blocks, and turnovers are converted to numeric columns.
 

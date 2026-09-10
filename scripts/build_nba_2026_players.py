@@ -133,25 +133,8 @@ def load_contracts() -> tuple[pd.DataFrame, pd.DataFrame]:
         bad = contracts.loc[contracts["2026 Salary"].isna(), "Player"].tolist()
         raise ValueError(f"Missing 2026-27 salary values: {bad}")
 
-    salary_counts = contracts.groupby("player_key")["2026 Salary"].nunique(dropna=False)
-    conflicts = salary_counts[salary_counts > 1]
-    if not conflicts.empty:
-        conflict_rows = contracts.loc[
-            contracts["player_key"].isin(conflicts.index),
-            ["Player", "Tm", "Salary 2026-27"],
-        ]
-        raise ValueError(
-            "Duplicate contract rows have conflicting 2026-27 salaries:\n"
-            + conflict_rows.to_string(index=False)
-        )
-
     duplicate_rows = contracts.loc[contracts.duplicated("player_key", keep=False)].copy()
-    contracts["rank_number"] = pd.to_numeric(contracts["Rk"], errors="coerce")
-    contracts_one = (
-        contracts.sort_values(["player_key", "rank_number"])
-        .drop_duplicates("player_key", keep="first")
-        .copy()
-    )
+    contracts_one = contracts.loc[~contracts["player_key"].duplicated(keep=False)].copy()
 
     print("Contracts source:")
     print(f"- URL: {CONTRACTS_URL}")
@@ -159,10 +142,7 @@ def load_contracts() -> tuple[pd.DataFrame, pd.DataFrame]:
     print(f"- Raw rows: {len(raw)}")
     print(f"- Removed non-player/repeated-header rows: {int(non_player.sum())}")
     print(f"- Player salary rows after filtering: {len(contracts)}")
-    print(
-        "- Collapsed duplicate player rows with identical 2026-27 salaries: "
-        f"{len(contracts) - len(contracts_one)}"
-    )
+    print(f"- Removed duplicate player salary rows: {len(contracts) - len(contracts_one)}")
 
     if not duplicate_rows.empty:
         duplicate_summary = (
@@ -171,7 +151,7 @@ def load_contracts() -> tuple[pd.DataFrame, pd.DataFrame]:
             ]
             .to_string(index=False)
         )
-        print("\nDuplicate contract rows collapsed because 2026-27 salary matched:")
+        print("\nDuplicate contract rows removed:")
         print(duplicate_summary)
 
     return contracts_one, duplicate_rows
@@ -187,29 +167,9 @@ def load_stats() -> tuple[pd.DataFrame, pd.DataFrame]:
     non_player = raw["Player"].isna() | raw["Player"].astype(str).isin(["Player", "League Average"])
     stats = raw.loc[~non_player].copy()
     stats["player_key"] = stats["Player"].map(clean_player_name)
-    stats["is_total_row"] = stats["Team"].astype(str).str.fullmatch(r"\d+TM")
 
     duplicated = stats.loc[stats.duplicated("player_key", keep=False)].copy()
-    duplicate_has_total = duplicated.groupby("player_key")["is_total_row"].sum()
-    missing_total = duplicate_has_total[duplicate_has_total == 0]
-    multiple_total = duplicate_has_total[duplicate_has_total > 1]
-    if not missing_total.empty or not multiple_total.empty:
-        problem_keys = set(missing_total.index).union(multiple_total.index)
-        problem_rows = stats.loc[
-            stats["player_key"].isin(problem_keys),
-            ["Player", "Team", "G", "GS", "MP", "PTS"],
-        ]
-        raise ValueError(
-            "Could not choose one season-total stats row for duplicated players:\n"
-            + problem_rows.to_string(index=False)
-        )
-
-    stats_one = stats.loc[
-        ~stats.duplicated("player_key", keep=False) | stats["is_total_row"]
-    ].copy()
-    if stats_one["player_key"].duplicated().any():
-        bad = stats_one.loc[stats_one["player_key"].duplicated(), "Player"].tolist()
-        raise ValueError(f"Duplicate stat player keys remain after total-row selection: {bad}")
+    stats_one = stats.loc[~stats["player_key"].duplicated(keep=False)].copy()
 
     keep = {
         "Player": "stats_Player",
@@ -241,22 +201,32 @@ def load_stats() -> tuple[pd.DataFrame, pd.DataFrame]:
     print(f"- Raw rows: {len(raw)}")
     print(f"- Removed non-player rows, including League Average: {int(non_player.sum())}")
     print(f"- Player stat rows after filtering: {len(stats)}")
-    print(f"- Multi-team players using Basketball Reference total rows such as 2TM/3TM: {duplicated['player_key'].nunique()}")
-    print(f"- Team-stint rows dropped after total-row selection: {len(stats) - len(stats_one)}")
+    print(f"- Removed duplicate player stat rows: {len(stats) - len(stats_one)}")
+    if not duplicated.empty:
+        duplicate_names = sorted(duplicated["Player"].dropna().unique())
+        print("- Duplicate-stat players removed: " + ", ".join(duplicate_names))
 
     return stats_one, duplicated
 
 
 def build_dataset() -> pd.DataFrame:
     contracts, _duplicate_contracts = load_contracts()
-    stats, _duplicate_stats = load_stats()
+    stats, duplicate_stats = load_stats()
 
     salary = contracts[["Player", "2026 Salary", "player_key"]].copy()
+    duplicate_stat_keys = set(duplicate_stats["player_key"])
+    removed_for_duplicate_stats = salary.loc[
+        salary["player_key"].isin(duplicate_stat_keys),
+        "Player",
+    ].tolist()
+    salary = salary.loc[~salary["player_key"].isin(duplicate_stat_keys)].copy()
+
     merged = salary.merge(stats, how="left", on="player_key", indicator=True)
 
     salary_only = merged.loc[merged["_merge"].eq("left_only"), "Player"].tolist()
     stats_only = stats.loc[~stats["player_key"].isin(salary["player_key"]), "stats_Player"].tolist()
 
+    print_list("Players removed from final output because they had multiple stat rows", removed_for_duplicate_stats)
     print_list("Players in contracts table but not in 2025-26 per-game stats", salary_only)
     print_list("Players in 2025-26 per-game stats but not in contracts table", stats_only)
 
