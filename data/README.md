@@ -2,13 +2,32 @@
 
 This folder contains small teaching datasets for DATA 110: Thinking with Data.
 
-## NBA Player Data
+## Basketball Player Data
 
-`nba_2026_players.csv` combines NBA player salary information with player performance statistics.
+`nba_2026_players.csv` and `wnba_2026_players.csv` contain player salary and performance statistics for use in DATA 110: Thinking with Data.
 
-It has the same columns, column order, and basic units as `wnba_2026_players.csv`:
+The files have the same columns, column order, and basic units:
 
 `Player`, `2026 Salary`, `G`, `GS`, `MIN`, `PTS`, `FG%`, `2P%`, `3P%`, `TRB`, `AST`, `STL`, `BLK`, `TOV`
+
+### Column Definitions
+
+* `Player`: Player name.
+* `2026 Salary`: Player salary in dollars for the 2026-related season in the source data.
+* `G`: Games played.
+* `GS`: Games started.
+* `MIN`: Minutes played per game.
+* `PTS`: Points scored per game.
+* `FG%`: Field goal percentage, as numeric percentage points.
+* `2P%`: Two-point field goal percentage, as numeric percentage points.
+* `3P%`: Three-point field goal percentage, as numeric percentage points.
+* `TRB`: Total rebounds per game.
+* `AST`: Assists per game.
+* `STL`: Steals per game.
+* `BLK`: Blocks per game.
+* `TOV`: Turnovers per game.
+
+## NBA Player Data
 
 ### Sources
 
@@ -57,4 +76,30 @@ Some quantities are not truly comparable:
 
 ## WNBA Player Data
 
-See `wnba_readme.md` for notes on `wnba_2026_players.csv`.
+### Source
+
+Data are retrieved by `scripts/build_wnba_2026_players.py` from the Her Hoop Stats WNBA Salary Cap Database:
+
+https://herhoopstats.com/salary-cap-sheet/wnba/players/
+
+The original table is imported using `pandas.read_html()` and then simplified for classroom use.
+
+Retrieval date for the committed snapshot: 2026-09-10.
+
+### Source Table
+
+The Her Hoop Stats table combines WNBA player salary information with per-game player statistics. The script keeps the shared classroom columns listed above.
+
+### Cleaning Decisions
+
+Player names are cleaned to remove abbreviated duplicate names included in the HTML table.
+
+Players with multiple entries are removed because their salary information is ambiguous, likely reflecting changes in team affiliation. This matches the NBA file's rule for removing players with duplicate contract or statistics rows.
+
+Salary values are stored as numeric dollars. Shooting percentages are stored as numeric percentage points. Games, games started, minutes, points, rebounds, assists, steals, blocks, and turnovers are converted to numeric columns.
+
+The resulting CSV is a fixed snapshot of the source data so that all students work with the same dataset.
+
+### Citation
+
+Her Hoop Stats, *WNBA Salary Cap Database*.
