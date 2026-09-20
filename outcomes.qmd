@@ -49,41 +49,36 @@ You should be able to:
 - create simple test cases to determine whether code behaves as intended
 - restart a notebook and run it from beginning to end without errors
 
+
 ### Working with Data
 
 You should be able to:
 
-- describe a dataset in terms of observations and variables
-- distinguish between numerical and categorical variables
-- import tabular data from a file such as a CSV
-- create and work with pandas DataFrames
-- inspect a dataset using tools such as `head()`, `info()`, and `describe()`
-- select individual columns and subsets of rows
-- filter data using numerical, categorical, and Boolean conditions
-- sort observations according to one or more variables
-- recognize missing values and consider appropriate ways of handling them
-- clean and restructure data for analysis
-- create new variables from existing variables when appropriate
-- group observations and calculate summaries for different groups
-- combine information from multiple datasets using appropriate joins or merges
-- identify the source, meaning, and units of variables before using them in an analysis
+- describe a dataset in terms of its observations, variables, data types, units, and provenance
+- import tabular data and work with it using pandas DataFrames (`pd.read_csv()`, `pd.DataFrame()`)
+- inspect the structure and contents of a dataset (`head()`, `info()`, `describe()`)
+- select columns and filter rows using numerical, categorical, and Boolean conditions (`df["column"]`, `==`, `>`, `<`, `&`, `|`)
+- sort observations according to one or more variables (`sort_values()`)
+- recognize and address missing, inconsistent, or incorrectly formatted values (`isna()`, `dropna()`, `fillna()`)
+- create new variables and restructure data when needed for an analysis
+- group observations and calculate summaries for different groups (`groupby()`)
+- combine related information from multiple datasets (`join()`, `merge()`)
+- explain how decisions about collection, measurement, inclusion, and exclusion shape a dataset
+
 
 ### Summarizing and Visualizing Data
 
 You should be able to:
 
-- calculate and interpret measures of center, including mean and median
-- calculate and interpret measures of variability
-- describe the shape and important features of a distribution
-- identify unusual observations and potential outliers
-- create histograms, bar charts, scatter plots, and other basic visualizations using Python
-- choose a visualization appropriate to the variables and question being investigated
-- label figures clearly, including axes, units, legends, and titles when appropriate
-- recognize misleading or ineffective visualizations
-- use visualizations together with numerical summaries rather than relying on either alone
-- compare distributions and relationships among different groups
-- identify patterns, trends, clusters, gaps, and unusual observations in visualizations
-- revise a visualization to communicate information more effectively
+-calculate and interpret measures of center and variability (`np.mean()`, `np.median()`, `np.std()`, `np.percentile()`)
+-describe the shape, center, spread, and unusual features of a distribution
+-create appropriate visualizations for numerical and categorical variables (`plt.hist()`, `plt.bar()`, `plt.scatter()`, `plt.boxplot()`)
+-label and design figures so their meaning is clear (`plt.xlabel()`, `plt.ylabel()`, `plt.title()`, `plt.legend()`)
+-use numerical summaries and visualizations together to investigate data
+-compare distributions and relationships across groups
+-identify patterns, trends, clusters, gaps, and unusual observations
+-recognize misleading visualizations and revise a figure to communicate more effectively
+
 
 ### Exploring and Interpreting Data
 
