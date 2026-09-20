@@ -69,14 +69,14 @@ You should be able to:
 
 You should be able to:
 
--calculate and interpret measures of center and variability (`np.mean()`, `np.median()`, `np.std()`, `np.percentile()`)
--describe the shape, center, spread, and unusual features of a distribution
--create appropriate visualizations for numerical and categorical variables (`plt.hist()`, `plt.bar()`, `plt.scatter()`, `plt.boxplot()`)
--label and design figures so their meaning is clear (`plt.xlabel()`, `plt.ylabel()`, `plt.title()`, `plt.legend()`)
--use numerical summaries and visualizations together to investigate data
--compare distributions and relationships across groups
--identify patterns, trends, clusters, gaps, and unusual observations
--recognize misleading visualizations and revise a figure to communicate more effectively
+- calculate and interpret measures of center and variability (`np.mean()`, `np.median()`, `np.std()`, `np.percentile()`)
+- describe the shape, center, spread, and unusual features of a distribution
+- create appropriate visualizations for numerical and categorical variables (`plt.hist()`, `plt.bar()`, `plt.scatter()`, `plt.boxplot()`)
+- label and design figures so their meaning is clear (`plt.xlabel()`, `plt.ylabel()`, `plt.title()`, `plt.legend()`)
+- use numerical summaries and visualizations together to investigate data
+- compare distributions and relationships across groups
+- identify patterns, trends, clusters, gaps, and unusual observations
+- recognize misleading visualizations and revise a figure to communicate more effectively
 
 
 ### Exploring and Interpreting Data
