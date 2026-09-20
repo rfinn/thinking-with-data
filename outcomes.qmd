@@ -21,34 +21,33 @@ By the end of this course, you should be able to:
 
 The course learning goals describe the broad skills we are working toward. The list below provides a more detailed guide to the concepts and skills you will develop throughout the course.
 
-### Working with Python and Computational Notebooks
+### Working with Computational Notebooks
 
 You should be able to:
 
-- use Google Colab to create, open, run, edit, and save computational notebooks
-- distinguish between code cells and Markdown/text cells
-- run cells in the correct order and recognize when notebook state affects results
-- use variables to store and update values
-- distinguish among common Python data types, including integers, floats, strings, lists, and Boolean values
-- convert values between appropriate data types when needed
-- use arithmetic expressions and understand Python's order of operations
-- use comparison and Boolean operators to create logical conditions
-- read and interpret conditional statements using `if`, `elif`, and `else`
-- use simple `for` and `while` loops to perform repeated operations
-- understand how iteration can occur explicitly with loops or implicitly through operations on lists, arrays, and DataFrames
-- call functions with appropriate inputs and interpret the values or data structures they return
-- write simple functions that perform a defined task and return a result
-- import Python packages and use functions from those packages
-- recognize common Python syntax rules, including matching delimiters and indentation
-- read a block of Python code and explain what it does
-- trace simple code by hand and predict its output
-- read and modify existing Python code
-- write short Python code segments to solve a specified problem
-- interpret common Python error messages and make debugging corrections
-- debug code by inspecting intermediate values and testing smaller pieces of a program
-- create simple test cases to determine whether code behaves as intended
+- use Google Colab to create, open, edit, run, save, and organize a computational notebook
+- distinguish between code cells and Markdown/text cells and use both to construct an understandable analysis
+- run cells in an appropriate order and recognize when notebook state affects results
+- use comments, Markdown, headings, and explanatory text to document an analysis
 - restart a notebook and run it from beginning to end without errors
+- organize code, results, visualizations, and interpretation so another person can follow and reproduce the analysis
 
+### Programming with Python
+
+You should be able to:
+
+- use variables, arithmetic expressions, and output statements to perform calculations (`=`, `+`, `-`, `*`, `/`, `**`, `print()`)
+- distinguish among common Python data types and convert between compatible types (`int`, `float`, `str`, `bool`, `list`; `type()`, `int()`, `float()`, `str()`)
+- create logical conditions using comparison and Boolean operators (`==`, `!=`, `>`, `<`, `and`, `or`)
+- use conditional statements to perform different operations under different conditions (`if`, `elif`, `else`)
+- use simple loops to perform repeated operations (`for`, `while`)
+- understand how iteration can occur explicitly through loops or implicitly through operations on lists, arrays, and DataFrames
+- call functions with appropriate inputs and interpret the values or data structures they return
+- write simple functions that accept input, perform a defined task, and return a result (`def`, parameters, `return`)
+- import Python packages and use their functions and objects (`import`, `numpy`, `pandas`, `matplotlib`)
+- read, trace, modify, and write short Python programs
+- interpret common errors and debug code by checking syntax, inspecting intermediate values, and testing smaller pieces (`print()`, `type()`)
+- create simple test cases and determine whether code produces correct and plausible results
 
 ### Working with Data
 
